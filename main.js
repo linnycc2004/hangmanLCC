@@ -65,7 +65,7 @@ function startGame(){
     document.getElementById("guesses-left").innerHTML = numGuesses;
 
     // Prints the blanks at the beginning of each round in the html
-    document.getElementById("word-blank").innerHTML = blanksAndSuccesses.join(" ");
+    document.getElementById("word-blanks").innerHTML = blanksAndSuccesses.join(" ");
 
 
 }
@@ -164,4 +164,25 @@ function roundComplete() {
         startGame();
 
     }
+}
+
+
+// MAIN PROCESS (This is the code that controls what is actually run)
+//  ------------------------------------------------------------------
+
+// Starts the Game
+startGame();
+
+// Then initiate the function for capturing key clicks
+document.onkeyup = function(event) {
+
+    // Converts all key clicks to lovwercase letter
+    var lettersGuessed = String.fromCharCode(event.keyCode).toLowerCase
+
+    // Run the code to check for correctness
+    checkLetter(lettersGuessed);
+
+    // Runs the code after each round is done
+    roundComplete();
+
 }
