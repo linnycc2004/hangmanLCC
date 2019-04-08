@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    border: 10px;
+
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 { 
+    color: magenta;
+}
+
+body {
+    background-image: url(https://www.boldsky.com/img/2017/07/15-1500100405-fruitsandvegetables.jpg);
+}
+
+h3 {
+    color: white;
+}
+
+#wrong-guesses {
+    color: white;
+}
