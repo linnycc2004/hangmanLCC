@@ -1,27 +1,29 @@
 *{
     text-align: center;
     border: 10px;
-
+    
 }
 
 h1 {
-    color: blueviolet;
+    color: magenta;
     font-size: 100px;
     font-weight: bold;
 }
 
 h2 { 
-    color: magenta;
+    color: rgb(145, 35, 130);
 }
 
 body {
-    background-image: url(https://www.boldsky.com/img/2017/07/15-1500100405-fruitsandvegetables.jpg);
+    background-image: url(https://cdn.20m.es/img2/recortes/2014/03/26/166159-600-338.jpg);
 }
 
 h3 {
-    color: white;
+    color: rgb(0, 89, 255);
 }
 
-#wrong-guesses {
+.container {
     color: white;
+    
 }
+

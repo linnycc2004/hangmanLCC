@@ -2,7 +2,7 @@
 //---------------------------------------------------------------------
 
 // Array of Word Options (all lowercase)
-var wordslist = ["pineapple", "blueberry", "oranges"]
+var wordslist = ["Tokyo", "Berlin", "Paris"]
 
 // Solution will be held here
 var chosenWord = "";
