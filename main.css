@@ -5,13 +5,13 @@
 }
 
 h1 {
-    color: magenta;
+    color: #e50909;
     font-size: 100px;
     font-weight: bold;
 }
 
 h2 { 
-    color: rgb(145, 35, 130);
+    color: #f58495;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 h3 {
-    color: rgb(0, 89, 255);
+    color: #0ccfd6;
 }
 
 .container {
